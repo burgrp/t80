@@ -1006,10 +1006,10 @@
       (reference "NT5") (unit 1) (value "NetTie_2") (footprint "t80:NetTie-2_SMD_Pad2mm-T80")
     )
     (path "/9cd4ee06-f76a-4022-9705-d1ca8fd213d3"
-      (reference "X1") (unit 1) (value "~") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical")
+      (reference "X1") (unit 1) (value "~") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical")
     )
     (path "/060c7f1e-d01c-4e18-a2a3-c55459b0551c"
-      (reference "X2") (unit 1) (value "~") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical")
+      (reference "X2") (unit 1) (value "~") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical")
     )
   )
 )
