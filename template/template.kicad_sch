@@ -1,4 +1,4 @@
-(kicad_sch (version 20220904) (generator eeschema)
+(kicad_sch (version 20220914) (generator eeschema)
 
   (uuid 3a03fc34-ae46-48c7-9026-c1dfade61c54)
 
@@ -348,17 +348,7 @@
     )
   )
 
-  (junction (at 154.94 185.42) (diameter 0) (color 0 0 0 0)
-    (uuid 1cbf3d2f-0a80-4745-9579-6c711938126d)
-  )
-  (junction (at 160.02 185.42) (diameter 0) (color 0 0 0 0)
-    (uuid 227f7f18-9e8d-4ec1-8803-2d674cd7eb77)
-  )
 
-  (wire (pts (xy 154.94 185.42) (xy 154.94 187.96))
-    (stroke (width 0) (type default))
-    (uuid 45c8c791-4fad-48e2-949e-67c228471b1d)
-  )
   (wire (pts (xy 139.7 177.8) (xy 154.94 177.8))
     (stroke (width 0) (type default))
     (uuid 79f34ac2-0df2-4d58-808f-64d180bf3df1)
@@ -370,10 +360,6 @@
   (wire (pts (xy 139.7 182.88) (xy 154.94 182.88))
     (stroke (width 0) (type default))
     (uuid b7bd4c96-441f-426e-89ae-2ad3603c2222)
-  )
-  (wire (pts (xy 160.02 185.42) (xy 160.02 187.96))
-    (stroke (width 0) (type default))
-    (uuid b7c66067-0dc2-4793-8d87-4788555f10e4)
   )
   (wire (pts (xy 139.7 185.42) (xy 154.94 185.42))
     (stroke (width 0) (type default))
@@ -478,7 +464,7 @@
   )
 
   (symbol (lib_id "t80:t80-pin-header") (at 93.98 170.18 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 060c7f1e-d01c-4e18-a2a3-c55459b0551c)
     (default_instance (reference "X1") (unit 1) (value "~") (footprint ""))
     (property "Reference" "X1" (id 0) (at 93.98 161.9123 0)
@@ -506,7 +492,7 @@
   )
 
   (symbol (lib_id "power:PWR_FLAG") (at 160.02 162.56 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 218eef8c-add9-4877-9a03-051e356fb455)
     (default_instance (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint ""))
     (property "Reference" "#FLG?" (id 0) (at 158.115 162.56 0)
@@ -525,7 +511,7 @@
   )
 
   (symbol (lib_id "Device:NetTie_2") (at 157.48 177.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 28916dd8-f213-404d-a954-2fe9c318e4cb)
     (default_instance (reference "NT1") (unit 1) (value "NetTie_2") (footprint ""))
     (property "Reference" "NT1" (id 0) (at 157.48 176.7301 0)
@@ -545,7 +531,7 @@
   )
 
   (symbol (lib_id "power:PWR_FLAG") (at 160.02 167.64 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2bb26b14-30d9-4769-93d2-5353480f409b)
     (default_instance (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint ""))
     (property "Reference" "#FLG?" (id 0) (at 158.115 167.64 0)
@@ -564,7 +550,7 @@
   )
 
   (symbol (lib_id "power:PWR_FLAG") (at 139.7 182.88 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32c90790-957b-46dc-af1b-a349738e006e)
     (default_instance (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint ""))
     (property "Reference" "#FLG?" (id 0) (at 137.795 182.88 0)
@@ -583,7 +569,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 160.02 170.18 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3b405e10-671a-4aec-b319-4492d701628d)
     (default_instance (reference "#PWR?") (unit 1) (value "GND") (footprint ""))
     (property "Reference" "#PWR?" (id 0) (at 166.37 170.18 0)
@@ -602,7 +588,7 @@
   )
 
   (symbol (lib_id "power:+12V") (at 160.02 177.8 270) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 43e82393-5544-4996-9176-b92ca47342ca)
     (default_instance (reference "#PWR?") (unit 1) (value "+12V") (footprint ""))
     (property "Reference" "#PWR?" (id 0) (at 156.21 177.8 0)
@@ -621,7 +607,7 @@
   )
 
   (symbol (lib_id "Device:NetTie_2") (at 157.48 182.88 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5b633814-ddc2-4d6f-aff0-4efc9aa9a231)
     (default_instance (reference "NT1") (unit 1) (value "NetTie_2") (footprint ""))
     (property "Reference" "NT1" (id 0) (at 157.48 181.8101 0)
@@ -641,7 +627,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 160.02 185.42 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 770e4205-7271-4413-abf6-7a9cb4f05b76)
     (default_instance (reference "#PWR?") (unit 1) (value "GND") (footprint ""))
     (property "Reference" "#PWR?" (id 0) (at 166.37 185.42 0)
@@ -660,7 +646,7 @@
   )
 
   (symbol (lib_id "power:+5V") (at 160.02 180.34 270) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 811ce509-bede-4ce2-a1c2-104c84d55dcd)
     (default_instance (reference "#PWR?") (unit 1) (value "+5V") (footprint ""))
     (property "Reference" "#PWR?" (id 0) (at 156.21 180.34 0)
@@ -679,7 +665,7 @@
   )
 
   (symbol (lib_id "power:+5V") (at 160.02 165.1 270) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 84ee0177-80d4-44c4-b680-ed23f7aebc7a)
     (default_instance (reference "#PWR?") (unit 1) (value "+5V") (footprint ""))
     (property "Reference" "#PWR?" (id 0) (at 156.21 165.1 0)
@@ -698,7 +684,7 @@
   )
 
   (symbol (lib_id "power:PWR_FLAG") (at 139.7 185.42 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 990c3f1e-c8fb-4f85-8e66-b41d33f393f5)
     (default_instance (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint ""))
     (property "Reference" "#FLG?" (id 0) (at 137.795 185.42 0)
@@ -717,7 +703,7 @@
   )
 
   (symbol (lib_id "power:PWR_FLAG") (at 139.7 180.34 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c4d05e1-5a44-4237-86c0-f3d934dd30eb)
     (default_instance (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint ""))
     (property "Reference" "#FLG?" (id 0) (at 137.795 180.34 0)
@@ -736,7 +722,7 @@
   )
 
   (symbol (lib_id "t80:t80-pin-header") (at 43.18 170.18 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9cd4ee06-f76a-4022-9705-d1ca8fd213d3)
     (default_instance (reference "X1") (unit 1) (value "~") (footprint ""))
     (property "Reference" "X1" (id 0) (at 43.18 161.9123 0)
@@ -764,7 +750,7 @@
   )
 
   (symbol (lib_id "Device:NetTie_2") (at 157.48 185.42 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a1bd9c37-3874-4bc4-a32c-bd7e2b30e4b1)
     (default_instance (reference "NT1") (unit 1) (value "NetTie_2") (footprint ""))
     (property "Reference" "NT1" (id 0) (at 157.48 184.3501 0)
@@ -784,7 +770,7 @@
   )
 
   (symbol (lib_id "power:PWR_FLAG") (at 139.7 177.8 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad7334bf-9072-4c28-aa24-60f4bc49f134)
     (default_instance (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint ""))
     (property "Reference" "#FLG?" (id 0) (at 137.795 177.8 0)
@@ -803,7 +789,7 @@
   )
 
   (symbol (lib_id "power:+3V3") (at 160.02 167.64 270) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d628deb8-769e-410f-98ef-dad448e43d0a)
     (default_instance (reference "#PWR?") (unit 1) (value "+3V3") (footprint ""))
     (property "Reference" "#PWR?" (id 0) (at 156.21 167.64 0)
@@ -821,28 +807,8 @@
     (pin "1" (uuid d5b88f02-02c4-48f6-b526-4555144c7f31))
   )
 
-  (symbol (lib_id "Device:NetTie_2") (at 157.48 187.96 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid da1f327b-cf13-4365-a02d-f2a050029507)
-    (default_instance (reference "NT1") (unit 1) (value "NetTie_2") (footprint ""))
-    (property "Reference" "NT1" (id 0) (at 157.48 186.8901 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "NetTie_2" (id 1) (at 157.48 186.8901 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (id 2) (at 157.48 187.96 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 157.48 187.96 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d796e0f6-fa45-4f11-8c7d-20918950aa21))
-    (pin "2" (uuid 4672ae73-8701-410e-9351-822670e6caab))
-  )
-
   (symbol (lib_id "power:+12V") (at 160.02 162.56 270) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e82751cc-5611-4b7e-a425-ba29ee9b8793)
     (default_instance (reference "#PWR?") (unit 1) (value "+12V") (footprint ""))
     (property "Reference" "#PWR?" (id 0) (at 156.21 162.56 0)
@@ -861,7 +827,7 @@
   )
 
   (symbol (lib_id "power:+3V3") (at 160.02 182.88 270) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef6054e1-7bd3-408c-9ea6-fa9970461f02)
     (default_instance (reference "#PWR?") (unit 1) (value "+3V3") (footprint ""))
     (property "Reference" "#PWR?" (id 0) (at 156.21 182.88 0)
@@ -880,7 +846,7 @@
   )
 
   (symbol (lib_id "power:PWR_FLAG") (at 160.02 165.1 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f286a726-1bee-4e71-b503-cf6bed571458)
     (default_instance (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint ""))
     (property "Reference" "#FLG?" (id 0) (at 158.115 165.1 0)
@@ -899,7 +865,7 @@
   )
 
   (symbol (lib_id "power:PWR_FLAG") (at 160.02 170.18 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fb5ae003-d536-4a8b-b2a4-b6a5e7fcc666)
     (default_instance (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint ""))
     (property "Reference" "#FLG?" (id 0) (at 158.115 170.18 0)
@@ -918,7 +884,7 @@
   )
 
   (symbol (lib_id "Device:NetTie_2") (at 157.48 180.34 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fbc33482-bb11-4339-9850-a56d848eee4c)
     (default_instance (reference "NT1") (unit 1) (value "NetTie_2") (footprint ""))
     (property "Reference" "NT1" (id 0) (at 157.48 179.2701 0)
@@ -991,19 +957,16 @@
       (reference "#PWR0116") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/28916dd8-f213-404d-a954-2fe9c318e4cb"
-      (reference "NT1") (unit 1) (value "NetTie_2") (footprint "t80:NetTie-2_SMD_Pad2mm-T80")
+      (reference "NT1") (unit 1) (value "NetTie_2") (footprint "t80:NetTie-2mm-T80")
     )
     (path "/fbc33482-bb11-4339-9850-a56d848eee4c"
-      (reference "NT2") (unit 1) (value "NetTie_2") (footprint "t80:NetTie-2_SMD_Pad0.25mm-T80")
+      (reference "NT2") (unit 1) (value "NetTie_2") (footprint "t80:NetTie-2mm-T80")
     )
     (path "/5b633814-ddc2-4d6f-aff0-4efc9aa9a231"
-      (reference "NT3") (unit 1) (value "NetTie_2") (footprint "t80:NetTie-2_SMD_Pad0.25mm-T80")
+      (reference "NT3") (unit 1) (value "NetTie_2") (footprint "t80:NetTie-2mm-T80")
     )
     (path "/a1bd9c37-3874-4bc4-a32c-bd7e2b30e4b1"
-      (reference "NT4") (unit 1) (value "NetTie_2") (footprint "t80:NetTie-2_SMD_Pad2mm-T80")
-    )
-    (path "/da1f327b-cf13-4365-a02d-f2a050029507"
-      (reference "NT5") (unit 1) (value "NetTie_2") (footprint "t80:NetTie-2_SMD_Pad2mm-T80")
+      (reference "NT4") (unit 1) (value "NetTie_2") (footprint "t80:NetTie-2mm-T80")
     )
     (path "/9cd4ee06-f76a-4022-9705-d1ca8fd213d3"
       (reference "X1") (unit 1) (value "~") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical")
