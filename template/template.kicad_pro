@@ -56,24 +56,11 @@
         }
       ],
       "drc_exclusions": [
-        "clearance|92000000|97490000|1a4b7c2e-e9df-4ee9-89fb-f58c6dc38127|a14eaf32-c904-4efd-8745-0805dab15269",
-        "clearance|92000000|97490000|1f5223c8-235f-4c64-9f94-1e8e4faacbec|a14eaf32-c904-4efd-8745-0805dab15269",
-        "clearance|92000000|97490000|9ce58a06-e970-4ee7-b086-89cc5384ba78|a14eaf32-c904-4efd-8745-0805dab15269",
-        "clearance|92000000|97490000|a14eaf32-c904-4efd-8745-0805dab15269|1a4b7c2e-e9df-4ee9-89fb-f58c6dc38127",
-        "hole_clearance|92000000|97490000|d51cbbb9-924b-43a6-bda7-dc4256a5c212|a14eaf32-c904-4efd-8745-0805dab15269",
-        "overlapping_pads|129625000|78250000|d975318a-3384-489e-b0f4-51da080be410|3525b5ca-ff18-41c2-a830-9e85e50cf998",
-        "overlapping_pads|134000000|77500000|c02145ca-3f71-4d4d-bbe6-2b0cd1f81ec2|2f65d3ff-ab19-4f59-b861-f2f937cf0145",
-        "overlapping_pads|134000000|83000000|0564e294-5ad9-4670-9559-d77e594fc4d1|2f68cc90-b87b-4b40-ba18-2e7850e9187c",
-        "overlapping_pads|92000000|97490000|5d65cc43-f185-4f04-b17e-ec55776673be|d51cbbb9-924b-43a6-bda7-dc4256a5c212",
-        "overlapping_pads|92000000|97490000|d51cbbb9-924b-43a6-bda7-dc4256a5c212|5d65cc43-f185-4f04-b17e-ec55776673be",
-        "silk_edge_clearance|125000000|106415000|31dd8a2d-1609-4937-8119-e2370ac75178|8fce5aea-3f33-42c1-bd9d-0a3f7cf3ad85",
-        "silk_edge_clearance|125000000|93595000|31dd8a2d-1609-4937-8119-e2370ac75178|0ddd5d92-39d6-4e1b-8925-670131143327",
-        "silk_edge_clearance|125000000|93595000|31dd8a2d-1609-4937-8119-e2370ac75178|87b3e3d5-6e80-4ffb-ab09-ea7e320ec5b0",
-        "silk_edge_clearance|84990000|94925000|d86ed76e-54c1-43e4-9306-e76b6b4f5e51|cd9cf06a-fa9f-4666-9da2-80cc54274bf6",
-        "silk_edge_clearance|84990000|96195000|d86ed76e-54c1-43e4-9306-e76b6b4f5e51|bbc11b60-2ad9-449c-a5cd-40ee59c0bca9",
-        "silk_edge_clearance|85000000|106415000|d86ed76e-54c1-43e4-9306-e76b6b4f5e51|87015d5f-9adf-473a-a19c-55d1ba370404",
-        "silk_edge_clearance|85000000|93595000|d86ed76e-54c1-43e4-9306-e76b6b4f5e51|0dbdf887-ed48-4a4b-bef8-d64c9fd0e5ca",
-        "silk_edge_clearance|85000000|96195000|d86ed76e-54c1-43e4-9306-e76b6b4f5e51|ff9603de-f515-493c-bec6-2655a5349bdf"
+        "silk_edge_clearance|85000000|102050000|d86ed76e-54c1-43e4-9306-e76b6b4f5e51|3c1485e6-4837-4f49-96cf-c1de06c6e778",
+        "silk_edge_clearance|85000000|110290000|d86ed76e-54c1-43e4-9306-e76b6b4f5e51|7ee377f0-4e28-4ab3-ab17-14c6d89cd4af",
+        "silk_edge_clearance|85000000|110290000|d86ed76e-54c1-43e4-9306-e76b6b4f5e51|d8441389-a5b1-4216-923c-54c1837ec057",
+        "silk_edge_clearance|85000000|89710000|d86ed76e-54c1-43e4-9306-e76b6b4f5e51|1db00911-2cc7-492e-8f71-1f05112bd26e",
+        "silk_edge_clearance|85000000|97950000|d86ed76e-54c1-43e4-9306-e76b6b4f5e51|1c361c75-174c-4263-967d-178694f1b39c"
       ],
       "meta": {
         "version": 2
@@ -210,7 +197,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_to_pin|406400|1854200|58fb40e7-a03c-4e84-ab5d-fc8b0a03d187|05245760-8fab-4242-9022-17164b24c55f"
+    ],
     "meta": {
       "version": 0
     },
@@ -425,7 +414,7 @@
   "net_settings": {
     "classes": [
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -439,10 +428,10 @@
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -453,10 +442,10 @@
         "name": "PWR_LINE",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.0,
-        "via_diameter": 2.0,
-        "via_drill": 1.0,
-        "wire_width": 6.0
+        "track_width": 1.6,
+        "via_diameter": 1.6,
+        "via_drill": 0.8,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -464,12 +453,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "PWR_LINE",
-        "pattern": "/PWR_LINE_*"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
