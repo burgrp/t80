@@ -107,7 +107,7 @@
     (property "Sheetname" "")
     (path "/9cd4ee06-f76a-4022-9705-d1ca8fd213d3")
     (attr through_hole)
-    (fp_text reference "X1" (at 1.27 -6.1) (layer "F.SilkS")
+    (fp_text reference "X1" (at 1.27 -6.1) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp faab3250-3656-4d89-9d2f-271b4f2c9a49)
     )
